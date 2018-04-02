@@ -56,7 +56,7 @@
 
     // Add NJKWebViewProgressView to UINavigationBar
     _progressView = [[NJKWebViewProgressView alloc] initWithFrame:CGRectMake(0, self.navigationController.navigationBar.frame.size.height - 2, self.navigationController.navigationBar.frame.size.width, 2)];
-    [self.navigationController.navigationBar addSubview:_progressView];
+    //[self.navigationController.navigationBar addSubview:_progressView];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
